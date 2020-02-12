@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: CommonsArea.ma
-//Last modified: Wed, Feb 12, 2020 11:04:05 AM
+//Last modified: Wed, Feb 12, 2020 11:18:55 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l meter -a degree -t film;
