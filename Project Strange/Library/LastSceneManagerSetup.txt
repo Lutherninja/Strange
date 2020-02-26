@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/80sMall.unity
+- path: Assets/Scenes/GreyBox.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
