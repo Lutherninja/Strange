@@ -1,0 +1,49 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.6200000047683716,
+                    "emissive_intensity": 22.31999969482422,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 32
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 30,
+                    "minPOMSamples": 1,
+                    "pomStrength": 1.2599999904632568,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "MovieCieling": {
+            "shader": "Main shader"
+        },
+        "Movie_Floor": {
+            "shader": "Main shader"
+        },
+        "Movie_Walls": {
+            "shader": "Main shader"
+        },
+        "WallsandCieling": {
+            "shader": "Main shader"
+        }
+    }
+}

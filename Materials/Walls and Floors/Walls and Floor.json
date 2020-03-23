@@ -1,0 +1,64 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.6700000166893005,
+                    "emissive_intensity": 1.0700000524520874,
+                    "horizonFade": 1.399999976158142,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1.0800000429153442,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Arcade_Floor": {
+            "shader": "Main shader"
+        },
+        "Arcade_Walls": {
+            "shader": "Main shader"
+        },
+        "Commons_Floor": {
+            "shader": "Main shader"
+        },
+        "Commons_Walls": {
+            "shader": "Main shader"
+        },
+        "Food_Floor": {
+            "shader": "Main shader"
+        },
+        "LevelTwoPlat": {
+            "shader": "Main shader"
+        },
+        "Movie_Floor": {
+            "shader": "Main shader"
+        },
+        "Movie_Walls": {
+            "shader": "Main shader"
+        },
+        "WallsandCieling": {
+            "shader": "Main shader"
+        }
+    }
+}
